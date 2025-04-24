@@ -27,5 +27,21 @@ python flclient.py \
   --lr 0.01 \
   --metrics-out metrics.json
 
-## Dependencies:
+## Installation
+
+```bash
 pip install torch torchvision requests
+```
+
+## Quickstart
+```bash
+python flclient.py \
+  --data mnist \
+  --model cnn \
+  --server http://localhost:8080 \
+  --rounds 1 \
+  --epochs 1 \
+  --batch-size 32 \
+  --lr 0.01 \
+  --metrics-out metrics.json
+```
