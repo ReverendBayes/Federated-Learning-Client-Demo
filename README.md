@@ -8,10 +8,6 @@ A one-file FedAvg client trainer (e.g. on MNIST) that you can point at a server 
 * A single flclient.py would let researchers quickly prototype ideas without cloning ten repos.
 
 ## Key features
-python flclient.py \
-  --data mnist \
-  --model cnn \
-  --server http://localhost:8080
 * Built-in model & dataset loaders
 * Configurable round size, epochs per round
 * Outputs local metrics JSON
